@@ -1,0 +1,12 @@
+
+%% set checking069V_by_TM = h.formatting_float_number(checking069V_by_TM_limits[test][0]['result'], precision = prec)
+%% set text_limits_checking069V_by_TM = h.exist_result(h.exist_limits(checking069V_by_TM_limits[test][0], 'lo', prec), precision = prec) + h.exist_result(h.exist_limits(checking069V_by_TM_limits[test][0], 'comp')) + h.exist_result(h.exist_limits(checking069V_by_TM_limits[test][0], 'hi', prec), precision = prec)
+%% set checking069V_by_TM_status = h.add_background_color(h.exist_result(checking069V_by_TM_limits[test][0]['status']))
+
+\VAR{test + 1} & \VAR{checking069V_by_TM} & \VAR{text_limits_checking069V_by_TM} & \VAR{checking069V_by_TM_status} \tabularnewline \hline
+
+%% set checking069V_by_DMM = h.formatting_float_number(checking069V_by_DMM_limits[test][0]['result'], precision = prec)
+%% set text_limits_checking069V_by_DMM = h.exist_result(h.exist_limits(checking069V_by_DMM_limits[test][0], 'lo', prec), precision = prec) + h.exist_result(h.exist_limits(checking069V_by_DMM_limits[test][0], 'comp')) + h.exist_result(h.exist_limits(checking069V_by_DMM_limits[test][0], 'hi', prec), precision = prec)
+%% set checking069V_by_DMM_status = h.add_background_color(h.exist_result(checking069V_by_DMM_limits[test][0]['status']))
+
+\VAR{test + 1} & \VAR{checking069V_by_DMM} & \VAR{text_limits_checking069V_by_DMM} & \VAR{checking069V_by_DMM_status} \tabularnewline \hline
